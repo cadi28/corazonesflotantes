@@ -1,6 +1,7 @@
+
 body{
+    background-color: pink;
     margin: 0px;
-    background-color: black;
 }
 
 .contenedor{
@@ -21,7 +22,7 @@ body{
     width: 19%;
 }
 
-.heart {
+.heart{
     /*content*/
     width: 150px;
     height: 150px;
@@ -35,7 +36,7 @@ body{
     width: 90px;
     height: 90px;
     content: '';
-    background-color: crimson;
+    background-color: green;
     position: absolute;
     margin: 35px 0px 0px 30;
     transform: rotate(-135deg);
@@ -46,7 +47,7 @@ body{
     width: 90px;
     height: 90px;
     content: '';
-    background-color: crimson;
+    background-color: green;
     border-radius: 45px;
     position: absolute;
     margin: 44px 0px;
@@ -57,7 +58,7 @@ body{
     width: 90px;
     height: 90px;
     content: '';
-    background-color: crimson;
+    background-color: green;
     position: absolute;
     z-index: 1;
     margin: 0px 44px;
@@ -133,10 +134,10 @@ body{
 
 @keyframes colors {
     0% {
-        background-color: #b30000;
+        background-color: green;
     }
     25% {
-        background-color: #24248f;
+        background-color: #fff700;
     }
     50% {
         background-color: #ff1a9f;
@@ -159,7 +160,7 @@ body{
     transform: rotate(45deg);
 }
 .halfMoon::before {
-    background: black;
+    background: transparent;
     height: 90px;
     width: 45px;
     border-radius: 76px 0px 0px 0px;
@@ -170,7 +171,7 @@ body{
 }
 
 .halfMoon::after {
-    background: black;
+    background: transparent;
     height: 90px;
     width: 45px;
     border-radius: 0px 0px 0px 76px;
@@ -223,6 +224,6 @@ body{
         margin-left: 50%;
     }
     100%{
-        margin-left: 0%;
+    margin-left: 0%;
     }
 }
